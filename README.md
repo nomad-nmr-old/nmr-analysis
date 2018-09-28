@@ -3,8 +3,8 @@
 ## Components
 
 ### [NMR Analysis Tool](https://github.com/psalios/sh/tree/master/nmr-spectrum)
-The tool allows users to perform NMR Analysis on NMR spectra. It can perform peak picking on NMR spectra, chemical shift reference, determine integral intensity of peaks (i.e. area under the curve within certain limits) and produce multiplet reports.
-The data are stored in the database in order to be used from the search engine (see below).
+The tool enables to visualise 1D NMR spectra stored in the raw native Bruker format and performs chemical shift referencing, peak picking, integration and multiplet analysis. Processing of NMR data is done by NMRGLUE - a module for working with NMR data in Python (https://www.nmrglue.com/) and spectra are visualised using an interactive visualization library Bokeh (https://bokeh.pydata.org/en/latest/). 
+
 
 ### [Search Engine on peaks and multiplet information](https://github.com/psalios/sh/tree/master/peaks)
 The search engine allows users to determine chemical shifts (ppm), multiplicity and deviation (ppm) of carbon and proton spectrum. The search engine performs a whole or partial match search on the data stored in the database and returns the spectra that matches the input.
